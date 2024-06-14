@@ -58,7 +58,7 @@ function findThePlayer(playerID) {
     });
 }
 function sendMessage(text) {
-    conn.send(undefined);
+    conn.send(text);
     console.log("Data sent: "+text);
 }
 
